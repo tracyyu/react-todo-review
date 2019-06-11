@@ -10,7 +10,7 @@ class List extends React.Component {
     
     render() {
         return( 
-            <div>
+            <div className="center vertical" id="list">
 
             </div>
         );
