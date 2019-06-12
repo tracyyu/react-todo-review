@@ -6,6 +6,14 @@ body {
   overflow: hidden;
 }
 
+form {
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
 #app {
   width: 100%;
 }
@@ -24,6 +32,16 @@ body {
   font-size: 20px;
 }
 
+.buttons {
+  float: right;
+}
+
+.button {
+  display: inline-block;
+  margin: 0px 3px 0px 3px;
+}
+
+
 .center {
   display: flex;
   justify-content: center;
@@ -40,13 +58,7 @@ body {
   padding: 5px;
 }
 
-#mostLiked {
-  border: 3px solid yellow;
-  border-radius: 5px;
-  margin: 5px;
-}
-
 #list {
-  overflow: scroll;
+  overflow: auto;
   height: 70vh;
 }
